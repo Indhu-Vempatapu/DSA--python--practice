@@ -12,3 +12,6 @@ def buyAndSellStock(nums):
   return profit
 nums = list(int, input().split())
 print(buyAndSellStock(nums))
+#Example
+#Input: 7 1 5 3 6 4
+#Output: 5
