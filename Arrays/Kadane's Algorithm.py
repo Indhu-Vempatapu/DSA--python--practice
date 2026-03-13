@@ -6,6 +6,7 @@ for i in range(1, len(nums)):
   curr_sum = max(nums[i], nums[i]+curr_sum)
   max_sum = max(max_sum, curr_sum)
 print(max_sum)
+
 #Example 
-#Input: [-2 1 -3 4 -1 2 1 -5 4]
+#Input: [-2 1 -3 4 -1 2 1 -5 4] 
 #Output: 6 
