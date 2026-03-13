@@ -20,3 +20,16 @@ if n<=1:
   exit()
 else:
   print(mergeIntervals(intervals))              
+
+#Example 1: 
+#Input: enter number of elements: 4
+# 1 3
+# 15 18
+# 2 6
+# 8 10
+#Output: [[1,6],[8,10],[15,18]]
+
+#Example 2:
+#Input: 1
+# 18 20
+#Output: [[18,20]]
