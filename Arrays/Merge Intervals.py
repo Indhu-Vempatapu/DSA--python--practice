@@ -1,3 +1,4 @@
+#Merge Intervals
 def mergeIntervals(intervals):
   intervals.sort(key=lambda x:x[0])
   merged = []
