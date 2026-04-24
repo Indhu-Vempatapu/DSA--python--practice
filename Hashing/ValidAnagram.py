@@ -15,3 +15,9 @@ def ValidAnagram(s, t):
 s = input("enter a string: ")
 t = input("enter another string: ")
 print(ValidAnagram(s,t))
+
+#Example: s=listen t=silent 
+#Output: True
+
+#Example: s=joy t=rat
+#Output: False
