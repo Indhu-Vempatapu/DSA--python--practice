@@ -1,3 +1,4 @@
+#remove element particularly using in-place modification 
 def removeElement(nums):
   if not nums:
      return 0
