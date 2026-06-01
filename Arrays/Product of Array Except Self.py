@@ -1,4 +1,4 @@
-# Product of Array Except Self - using prifix and suffix approach
+# Product of Array Except Self 
 def productofArrayExceptSelf(lst):
   product = [1]*len(lst)
   prefix = 1
